@@ -1,4 +1,5 @@
 import React from "react";
+import "./CSS/LoginSignUp.css";
 
 export const LoginSignup = () => {
   return (
@@ -11,6 +12,13 @@ export const LoginSignup = () => {
           <input type="password" placeholder="password" />
         </div>
         <button>Continue</button>
+        <p className="loginsignup-login">
+          Already have an account? <span>Login here.</span>
+        </p>
+        <div className="loginsignup-agree">
+          <input type="checkbox" name="" id="" />
+          <p>By continuing, i agree the terms, conditions and privacy policy</p>
+        </div>
       </div>
     </div>
   );

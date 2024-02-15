@@ -1,68 +1,76 @@
-import p1_img from "./p12.png";
-import p3_img from "./p14.png";
-import p4_img from "./p8.png";
-import p5_img from "./p15.png";
-import p6_img from "./p6.png";
+import p1_img from "./p1.png";
 import p2_img from "./p2.png";
+import p3_img from "./p3.png";
+import p4_img from "./p4.png";
+import p5_img from "./p5.png";
+import p6_img from "./p6.png";
 import p7_img from "./p7.png";
 import p8_img from "./p8.png";
 
 let new_collections = [
   {
-    id: 12,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    id: 1,
+    name: "iPhone 15 Pro",
+    category: "mobile",
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
-  },
-  {
-    id: 35,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
-    image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
-  },
-  {
-    id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
-  },
-  {
-    id: 8,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
-  },
-  {
-    id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
-    image: p5_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 90000,
+    old_price: 105000,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Samsung Galaxy S23 Ultra",
+    category: "mobile",
+    image: p2_img,
+    new_price: 75000,
+    old_price: 105000,
+  },
+  {
+    id: 3,
+    name: "MI 13",
+    category: "mobile",
+    image: p3_img,
+    new_price: 60000,
+    old_price: 80000,
+  },
+  {
+    id: 4,
+    name: "OnePlus 13",
+    category: "mobile",
+    image: p4_img,
+    new_price: 85000,
+    old_price: 100000,
+  },
+  {
+    id: 5,
+    name: "Oppo F23",
+    category: "mobile",
+    image: p5_img,
+    new_price: 55000,
+    old_price: 65000,
+  },
+  {
+    id: 6,
+    name: "MacBook Pro 16in",
+    category: "laptop",
     image: p6_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 185000,
+    old_price: 255000,
   },
   {
-    id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    id: 7,
+    name: "MacBook Pro 14in",
+    category: "laptop",
     image: p7_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 85000.0,
+    old_price: 125000,
   },
   {
-    id: 28,
-    name: "Boys Orange Colourblocked Hooded Sweatshirt",
+    id: 8,
+    name: "MacBook air",
+    category: "laptop",
     image: p8_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 85000,
+    old_price: 105000,
   },
 ];
 

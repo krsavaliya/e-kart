@@ -8,7 +8,7 @@ import { Cart } from "./Pages/Cart";
 import { Footer } from "./Components/Footer/Footer";
 import mobile_banner from "./Components/Assets/mobile_banner.png";
 import laptop_banner from "./Components/Assets/laptop_banner.png";
-import accessories_banner from "./Components/Assets/accessories_banner.png";
+import accessories_banner from "./Components/Assets/accessories_banner1.png";
 
 import LoginSignup from "./Pages/LoginSignup";
 

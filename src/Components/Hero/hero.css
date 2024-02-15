@@ -1,10 +1,10 @@
-.hero{
+.hero {
   height: 100vh;
   background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
   display: flex;
 }
 
-.hero-left{
+.hero-left {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,13 @@
   line-height: 1.1;
 }
 
-.hero-left h2{
+.hero-left h2 {
   color: #090909;
   font: 26%;
   font-style: 600;
 }
 
-.hero-left p{
+.hero-left p {
   color: #171717;
   font-size: 100px;
   font-weight: 700;
@@ -29,10 +29,10 @@
 .hero-hand-icon {
   display: flex;
   align-items: center;
-  gap:20px;
+  gap: 20px;
 }
 
-.hero-hand-icon img{
+.hero-hand-icon img {
   width: 105px;
 }
 

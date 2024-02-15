@@ -6,31 +6,31 @@ import p4_img from "./p4.png";
 let data_product = [
   {
     id: 1,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "iPhone 15 Pro",
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 90000,
+    old_price: 105000,
   },
   {
     id: 2,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "Samsung Galaxy S23 Ultra",
     image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 75000,
+    old_price: 105000,
   },
   {
     id: 3,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "MI 13",
     image: p3_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 60000,
+    old_price: 80000,
   },
   {
     id: 4,
-    name: "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    name: "OnePlus 13",
     image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 85000,
+    old_price: 100000,
   },
 ];
 
