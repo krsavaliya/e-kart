@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../Assets/elogo.png";
 import carticon from "../Assets/cart_icon.png";
 import { Link } from "react-router-dom";
-import nav_dropdown from "../Assets/nav_dropdpwn.png";
+import nav_dropdown from "../Assets/nav_dropdown.png";
 
 export const Navbar = () => {
   const [menu, setMenu] = useState("shop");
@@ -16,7 +16,6 @@ export const Navbar = () => {
 
   return (
     <div className="navbar">
-      s
       <div className="nav-logo">
         <img src={logo} alt="" width="65" height="65" />
         <p>E-KART</p>
