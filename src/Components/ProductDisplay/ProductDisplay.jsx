@@ -48,9 +48,9 @@ export const ProductDisplay = (props) => {
           natus corrupti deserunt assumenda commodi atque id, dolor velit harum
           ratione numquam dolorum.
         </div>
-        <div className="ProductDisplay-right-storages">
+        <div className="ProductDisplay-right-storage">
           <h1>Select Storage</h1>
-          <div className="ProductDisplay-right-storage">
+          <div className="ProductDisplay-right-storages">
             <div>256GB</div>
             <div>512Gb</div>
             <div>1TB</div>
@@ -64,7 +64,7 @@ export const ProductDisplay = (props) => {
           Add To Cart
         </button>
         <p className="ProductDisplay-right-category">
-          <span>Category:</span>Mobile, Laptop, Accessories
+          <span>Category: &nbsp; </span>Mobile, Laptop, Accessories
         </p>
       </div>
     </div>

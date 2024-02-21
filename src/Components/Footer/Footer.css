@@ -75,9 +75,9 @@
   .footer-logo p {
     font-size: 25px;
   }
-  .footer—links {
-    font-size: 14px;
-    gap: 1px;
+  .footer-links {
+    font-size: 10px;
+    gap: 20px;
   }
   .footer-social-icon img {
     width: 22px;
