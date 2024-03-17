@@ -198,6 +198,13 @@ app.post("/login", async (req, res) => {
   }
 });
 
+//API for new collection data
+app.get("/new-collection", async (req, res) => {
+  let products = await Products.find({});
+  let newCollection = products.slice(1).slice(-8);
+  res.json(newCollection);
+});
+
 app.listen(port, (error) => {
   if (!error) {
     console.log("Server running in " + port);
